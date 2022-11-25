@@ -1,0 +1,287 @@
+BODY {
+  margin           : 0px 0px 0px 0px;
+  background-color : #FFFFFF;
+  color            : #000000;
+}
+
+td, tr, p, div {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  color            : #333333;
+}
+
+ul {
+  margin           : 0px 0px 0px 0px;
+}
+
+hr {
+  background       : #CCCCCC;
+  height           : 1px;
+  width            : 100%;
+}
+.boxes {
+        border: solid;
+        border: dotted;
+        border-width: 1px;
+        border-bottom-color: #B0C4DE;
+        border-top-color: #B0C4DE;
+        border-left-color: #B0C4DE;
+        border-right-color: #B0C4DE;
+}
+
+.title {
+font-family: sans-serif;
+font-size: 24px;
+font-weight: bold;
+color            : #4490B4;
+}
+
+.pathway {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+a.pathway:link, a.pathway:visited {
+  color            : #ffffff;
+  font-weight      : normal;
+}
+
+a.pathway:hover {
+  color            : #ffffff;
+  font-weight      : normal;
+  text-deoration   : underline;
+}
+
+/* --Default Class Settings-- */
+
+a.mainlevel:link, a.mainlevel:visited {
+        color: #333333;
+        background-position: left;
+        text-align: left;
+        font-weight: bold;
+ }
+
+a.mainlevel:hover {
+        color: #4490B4;
+        background-position: left;
+        text-align: left;
+        }
+
+
+
+        a.mainmenu:link, a.mainmenu:visited {
+        color: #333333; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, serif;
+        font-weight: bold;
+        }
+
+a.mainmenu:hover, {
+        color: #4490B4; text-decoration: underline;
+        }
+
+a.sublevel:hover {
+        color: #4490B4; text-decoration: underline;
+        }
+
+a.sublevel:link, a.sublevel:visited {
+        color: #333333; font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, serif;
+        font-weight: normal;
+}
+
+
+table.moduletable {
+        margin: 0px 0px 0px 0px;
+        width: 95%;
+        border-left: solid 0px #000000;
+        border-right: solid 0px #000000;
+        border-top: solid 0px #000000;
+        border-bottom: solid 0px #000000;
+        }
+
+table.moduletable th {
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #000000;
+  text-align       : center;
+  background-image : url(../images/module_title_bg.png);
+  width            : 100%;
+}
+
+table.moduletable td {
+        font-size: 10px;
+        font-weight: normal;
+        }
+
+.poll {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #666666;
+  line-height      : 14px;
+}
+
+
+.sectiontableheader {
+  background-color : #CCCCCC;
+  color            : #4490B4;
+  font-weight      : bold;
+}
+
+.sectiontableentry1 {
+  background-color : #F0F0F0;
+}
+
+.sectiontableentry2 {
+  background-color : #E0E0E0;
+}
+
+
+.small {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #3366C0;
+  text-decoration  : none;
+  font-weight      : medium;
+}
+
+.smalldark {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #000000;
+  text-decoration  : none;
+  font-weight      : normal;
+}
+
+
+.contentpane {
+  background       : #FFFFFF;
+}
+
+.contentpaneopen {
+  background       : #FFFFFF;
+}
+
+.contentheading, .componentheading {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #4490B4;
+  text-align       : left;
+}
+
+.createdate {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #999999;
+  text-align       : left;
+}
+
+
+.button {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-style       : normal;
+  font-size        : 10px;
+  font-weight      : bold;
+  background-color : #F0F0F0;
+  color            : #000000;
+  border           : 1px solid #CCCCCC;
+}
+
+.inputbox {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #000000;
+  background-color : #F0F0F0;
+  border           : 1px solid #CCCCCC;
+}
+
+
+a:link, a:visited {
+  font-size        : 11px;
+  color            : #000000;
+  text-decoration  : none;
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color            : #4490B4;
+  text-decoration  : none;
+}
+
+/* For content item titles that are hyperlink instead of Read On */
+a.contentpagetitle:link, a.contentpagetitle:visited {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+ 	color: #000000;
+	text-align:left;
+	}
+
+a.contentpagetitle:hover {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align:left;
+	color: #4490B4;
+	text-decoration: underline;
+	font-weight: bold;
+	}
+
+a.category:link, a.category:visited {
+  color            : #333333;
+  font-weight      : bold;
+}
+
+a.category:hover {
+  color            : #4490B4;
+}
+
+/* Styles for dhtml tabbed-pages */
+.ontab {
+	background-color: #ffae00;
+	border-left: outset 2px #ff9900;
+	border-right: outset 2px #808080;
+	border-top: outset 2px #ff9900;
+	border-bottom: solid 1px #d5d5d5;
+	text-align: center;
+	cursor: hand;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.offtab {
+	background-color : #e5e5e5;
+	border-left: outset 2px #E0E0E0;
+	border-right: outset 2px #E0E0E0;
+	border-top: outset 2px #E0E0E0;
+	border-bottom: solid 1px #d5d5d5;
+	text-align: center;
+	cursor: hand;
+	font-weight: normal;
+}
+.tabpadding {
+}
+
+.tabheading {
+	background-color: #ffae00;
+	text-align: left;
+}
+
+.pagetext {
+	visibility: hidden;
+	display: none;
+	position: relative;
+	top: 0;
+}
+
+/* for modifying {moscode} output.  Don't set the colour! */
+.moscode {
+	background-color: #f0f0f0;
+}
+
+/* Text passed with mosmsg url parameter */
+.message {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size : 10pt;
+	color : #ff6600;
+	text-align: center;
+}
